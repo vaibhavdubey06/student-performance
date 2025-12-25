@@ -1,0 +1,61 @@
+# =============================================================================
+# Docker Ignore - Exclude files from Docker build context
+# =============================================================================
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info
+*.egg
+.eggs
+dist
+build
+
+# Virtual environments
+.venv
+venv
+ENV
+env
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Testing
+.pytest_cache
+.coverage
+htmlcov
+.tox
+
+# Notebooks (optional - keep if needed for the image)
+notebook/
+*.ipynb
+
+# Logs
+logs/
+*.log
+
+# Documentation
+*.md
+!README.md
+
+# CI/CD
+.github
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local development
+.env
+.env.local
+*.local

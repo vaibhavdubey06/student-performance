@@ -1,0 +1,34 @@
+# =============================================================================
+# Docker Compose - Local Development & Production
+# =============================================================================
+# Usage:
+#   Development: docker-compose up --build
+#   Production:  docker-compose -f docker-compose.yml up -d
+# =============================================================================
+
+version: '3.8'
+
+services:
+  student-performance-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: student-performance-predictor
+    ports:
+      - "8080:8080"
+    environment:
+      - FLASK_ENV=production
+      - PORT=8080
+    volumes:
+      # Mount artifacts for model persistence (optional)
+      - ./artifacts:/app/artifacts:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+# Optional: Add more services here (e.g., nginx, redis, database)
