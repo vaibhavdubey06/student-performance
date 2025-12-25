@@ -1,7 +1,8 @@
 # Virtual environment
 venv/
 catboost_info/
-artifacts/
+# NOTE: Do NOT ignore artifacts/ because the deployed app needs
+# `artifacts/model.pkl` and `artifacts/preprocessor.pkl` at runtime.
 
 # Packaging metadata
 *.egg-info/
