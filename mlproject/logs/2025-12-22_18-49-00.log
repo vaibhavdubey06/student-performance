@@ -1,0 +1,11 @@
+[2025-12-22 18:49:00,505] 39 root - INFO - Logger initialized successfully
+[2025-12-22 18:49:00,516] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-12-22 18:49:00,521] 97 werkzeug - INFO -  * Debugger PIN: 533-688-159
+[2025-12-22 18:50:44,618] 97 werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 18:50:44] "GET / HTTP/1.1" 200 -
+[2025-12-22 18:52:01,944] 97 werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 18:52:01] "GET /predictdata HTTP/1.1" 200 -
+[2025-12-22 18:52:39,321] 97 werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 18:52:39] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-12-22 18:52:39,519] 97 werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 18:52:39] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-12-22 18:52:39,565] 97 werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 18:52:39] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-12-22 18:52:39,588] 97 werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 18:52:39] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-12-22 18:52:39,589] 97 werkzeug - INFO - 127.0.0.1 - - [22/Dec/2025 18:52:39] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=Xwsb6SEWI84veOrcy1cc HTTP/1.1" 200 -
+[2025-12-22 18:53:40,425] 97 werkzeug - INFO -  * Detected change in 'E:\\mlproject\\app.py', reloading

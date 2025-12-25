@@ -1,0 +1,12 @@
+[2025-12-22 17:14:51,957] 39 root - INFO - Logger initialized successfully
+[2025-12-22 17:14:54,162] 27 root - INFO - Entered the data ingestion method or component
+[2025-12-22 17:14:54,165] 30 root - INFO - Read the dataset as dataframe
+[2025-12-22 17:14:54,168] 36 root - INFO - Train test split initiated
+[2025-12-22 17:14:54,172] 43 root - INFO - Ingestion of the data iss completed
+[2025-12-22 17:14:54,211] 71 root - INFO - Read train and test data completed
+[2025-12-22 17:14:54,211] 72 root - INFO - Obtaining preprocessor object
+[2025-12-22 17:14:54,211] 50 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[2025-12-22 17:14:54,211] 51 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-12-22 17:14:54,212] 85 root - INFO - Applying preprocessing object on training and testing dataframes
+[2025-12-22 17:14:54,222] 93 root - INFO - Saved preprocessing object
+[2025-12-22 17:14:54,224] 33 root - INFO - Split training and test input data

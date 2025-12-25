@@ -1,0 +1,4 @@
+[2025-12-22 18:47:03,826] 39 root - INFO - Logger initialized successfully
+[2025-12-22 18:47:03,835] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-12-22 18:47:03,839] 97 werkzeug - INFO -  * Debugger PIN: 533-688-159
+[2025-12-22 18:48:57,859] 97 werkzeug - INFO -  * Detected change in 'E:\\mlproject\\app.py', reloading

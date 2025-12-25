@@ -1,0 +1,8 @@
+[2025-12-25 20:23:41,705] 39 root - INFO - Logger initialized successfully
+[2025-12-25 20:23:43,508] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-12-25 20:23:43,519] 97 werkzeug - INFO -  * Debugger PIN: 104-743-727
+[2025-12-25 20:24:04,869] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 20:24:04] "GET / HTTP/1.1" 200 -
+[2025-12-25 20:24:37,202] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 20:24:37] "GET / HTTP/1.1" 200 -
+[2025-12-25 20:24:42,557] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 20:24:42] "GET /predictdata HTTP/1.1" 200 -
+[2025-12-25 20:25:20,633] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2025 20:25:20] "POST /predictdata HTTP/1.1" 200 -
+[2025-12-25 20:26:25,333] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\dubey\\OneDrive\\Desktop\\Student-performance\\mlproject\\app.py', reloading

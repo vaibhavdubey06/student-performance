@@ -1,0 +1,4 @@
+[2025-12-25 20:26:27,220] 39 root - INFO - Logger initialized successfully
+[2025-12-25 20:26:28,954] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-12-25 20:26:28,962] 97 werkzeug - INFO -  * Debugger PIN: 104-743-727
+[2025-12-25 20:28:45,907] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\dubey\\OneDrive\\Desktop\\Student-performance\\mlproject\\src\\pipeline\\predict_pipeline.py', reloading
